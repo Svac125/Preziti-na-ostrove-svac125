@@ -92,3 +92,12 @@ flowchart TD
     I -->|Ano| J[Gratuluju, jsi pořád naživu]
     I -->|Ne| K[Game Over – zkus to příště líp]
 ```
+5. Užitečné odkazy pro ostrovní přeživší
+Oficiální průvodce přežitím od expertů: [Wilderness Survival Guide](https://www.wilderness-survival.net/)
+Nejlepší video, jak rozdělat oheň třením dřeva: [How to Make Fire by Friction](https://www.youtube.com/watch?v=1oAhF5sToyE)
+
+Závěr
+Ostrov tě nezabije.
+
+Maximálně tě naučí vážit si tekoucí vody a střechy nad hlavou.
+Drž se. Kokosy jsou s tebou.
