@@ -67,7 +67,7 @@ def rozdelat_ohen():
     
     print("Vzdávám to. Jdu jíst kokosy za studena.")
     return False
----
+```
 
 ### 3.2 Vzorec pro výpočet šance na přežití
 
