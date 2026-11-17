@@ -8,7 +8,6 @@ Probudil ses na pláži. Žádný telefon, žádný internet, žádná káva.
 Jen ty, písek, a **jeden jediný kokos**.
 
 Tato příručka ti pomůže přežít první dny, týdny a (pokud budeš šikovný) i měsíce na ostrově.
-![Ideální přístřešek na ostrově](images/island-shelter.png)
 
 ---
 
@@ -68,19 +67,7 @@ def rozdelat_ohen():
     
     print("Vzdávám to. Jdu jíst kokosy za studena.")
     return False
-```
-
-### 3.2 Vzorec pro výpočet šance na přežití
-
-$$
-P(\text{přežití}) = \frac{\text{dny bez deště} \times \text{počet kokosů}}{\text{počet komárů} + \text{úroveň zoufalství}^2}
-$$
-
----
-
-## 4. Rozhodovací proces (když jsi úplně ztracený)
-
-```mermaid
+$P(\text{přežití}) = \frac{\text{dny bez deště} \times \text{počet kokosů}}{\text{počet komárů} + \text{úroveň zoufalství}^2}$
 flowchart TD
     A[Jsi na ostrově?] -->|Ano| B{Máš vodu?}
     B -->|Ne| C[Hledej vodu prioritně!]
@@ -95,24 +82,10 @@ flowchart TD
     H --> I
     I -->|Ano| J[Gratuluju, jsi pořád naživu]
     I -->|Ne| K[Game Over – zkus to příště líp]
-```
+5. Užitečné odkazy pro ostrovní přeživší
+Oficiální průvodce přežitím od expertů: [Wilderness Survival Guide](https://www.wilderness-survival.net/)
+Nejlepší video, jak rozdělat oheň třením dřeva: [How to Make Fire by Friction](https://www.youtube.com/watch?v=1oAhF5sToyE)
+Závěr
+Ostrov tě nezabije.
 
----
-
-## 5. Užitečné odkazy pro ostrovní přeživší
-
-- Oficiální průvodce přežitím od expertů: [Wilderness Survival Guide](https://www.wilderness-survival.net)
-- Nejlepší video, jak rozdělat oheň třením dřeva: [How to Make Fire by Friction](https://www.youtube.com/watch?v=1oAhF5sToyE)
-
----
-
-## Závěr
-
-Ostrov tě nezabije.  
-Maximálně tě naučí vážit si **tekoucí vody** a **střechy nad hlavou**.
-
-**Drž se. Kokosy jsou s tebou.**
-
----
-
-*Vytvořeno s láskou (a jedním nalezeným kokosem) pro všechny, kteří právě ztroskotali.*
+Maximálně tě naučí vážit si tekoucí vody a střechy nad hlavou.Drž se. Kokosy jsou s tebou.
