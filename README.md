@@ -44,7 +44,7 @@ Tato příručka ti pomůže přežít první dny, týdny a (pokud budeš šikov
 | Sluneční brýle         | Střední        | Vypadáš cool, ale nic ti nepomůžou      |
 | Kniha „Jak přežít“     | Nízká          | Už ji máš v hlavě (tuhle příručku)      |
 
-![Ideální přístřešek na ostrově](Island-shelter.png)
+![Ideální přístřešek na ostrově](shelter.png)
 *Obrázek 1: Ideální přístřešek (verze pro pokročilé – většina lidí skončí u dvou tyčí a listí)*
 
 ---
