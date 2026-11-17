@@ -8,6 +8,7 @@ Probudil ses na pláži. Žádný telefon, žádný internet, žádná káva.
 Jen ty, písek, a **jeden jediný kokos**.
 
 Tato příručka ti pomůže přežít první dny, týdny a (pokud budeš šikovný) i měsíce na ostrově.
+![Ideální přístřešek na ostrově](images/island-shelter.png)
 
 ---
 
