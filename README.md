@@ -67,3 +67,7 @@ def rozdelat_ohen():
     
     print("Vzdávám to. Jdu jíst kokosy za studena.")
     return False
+
+$$
+P(\text{přežití}) = \frac{\text{dny bez deště} \times \text{počet kokosů}}{\text{počet komárů} + \text{úroveň zoufalství}^2}
+$$
