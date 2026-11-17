@@ -67,7 +67,25 @@ def rozdelat_ohen():
     
     print("Vzdávám to. Jdu jíst kokosy za studena.")
     return False
+---
 
 $$
 P(\text{přežití}) = \frac{\text{dny bez deště} \times \text{počet kokosů}}{\text{počet komárů} + \text{úroveň zoufalství}^2}
 $$
+
+```mermaid
+flowchart TD
+    A[Jsi na ostrově?] -->|Ano| B{Máš vodu?}
+    B -->|Ne| C[Hledej vodu prioritně!]
+    B -->|Ano| D{Máš přístřešek?}
+    D -->|Ne| E[Postav něco před nocí]
+    D -->|Ano| F{Máš jídlo?}
+    F -->|Ne| G[Hledej jídlo / lov]
+    F -->|Ano| H[Udržuj oheň a čekej na záchranu]
+    C --> I[Přežiješ další den?]
+    E --> I
+    G --> I
+    H --> I
+    I -->|Ano| J[Gratuluju, jsi pořád naživu]
+    I -->|Ne| K[Game Over – zkus to příště líp]
+```
