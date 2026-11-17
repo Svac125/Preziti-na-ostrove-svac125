@@ -68,11 +68,11 @@ def rozdelat_ohen():
     print("Vzdávám to. Jdu jíst kokosy za studena.")
     return False
 ---
-
+### 3.2 Vzorec pro výpočet šance na přežití
 $$
 P(\text{přežití}) = \frac{\text{dny bez deště} \times \text{počet kokosů}}{\text{počet komárů} + \text{úroveň zoufalství}^2}
 $$
-
+## 4. Rozhodovací proces (když jsi úplně ztracený)
 ```mermaid
 flowchart TD
     A[Jsi na ostrově?] -->|Ano| B{Máš vodu?}
