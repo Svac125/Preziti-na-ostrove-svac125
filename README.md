@@ -57,9 +57,9 @@ Tato příručka ti pomůže přežít první dny, týdny a (pokud budeš šikov
 def rozdelat_ohen():
     materialy = ["suché listí", "kůra", "tenké větvičky", "tlustší dřevo"]
     
-    for pokus in range(1, 48):  # maximálně 47 pokusů, pak už pláčeš
+    for pokus in range(1, 48):
         print(f"Pokus číslo {pokus}...")
-        if trením_dřeva() == True:
+        if True:
             print("🔥 Máme oheň! Jsi legenda.")
             return True
         else:
@@ -67,25 +67,3 @@ def rozdelat_ohen():
     
     print("Vzdávám to. Jdu jíst kokosy za studena.")
     return False
-$P(\text{přežití}) = \frac{\text{dny bez deště} \times \text{počet kokosů}}{\text{počet komárů} + \text{úroveň zoufalství}^2}$
-flowchart TD
-    A[Jsi na ostrově?] -->|Ano| B{Máš vodu?}
-    B -->|Ne| C[Hledej vodu prioritně!]
-    B -->|Ano| D{Máš přístřešek?}
-    D -->|Ne| E[Postav něco před nocí]
-    D -->|Ano| F{Máš jídlo?}
-    F -->|Ne| G[Hledej jídlo / lov]
-    F -->|Ano| H[Udržuj oheň a čekej na záchranu]
-    C --> I[Přežiješ další den?]
-    E --> I
-    G --> I
-    H --> I
-    I -->|Ano| J[Gratuluju, jsi pořád naživu]
-    I -->|Ne| K[Game Over – zkus to příště líp]
-5. Užitečné odkazy pro ostrovní přeživší
-Oficiální průvodce přežitím od expertů: [Wilderness Survival Guide](https://www.wilderness-survival.net/)
-Nejlepší video, jak rozdělat oheň třením dřeva: [How to Make Fire by Friction](https://www.youtube.com/watch?v=1oAhF5sToyE)
-Závěr
-Ostrov tě nezabije.
-
-Maximálně tě naučí vážit si tekoucí vody a střechy nad hlavou.Drž se. Kokosy jsou s tebou.
