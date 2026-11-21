@@ -1,15 +1,16 @@
 {
-  "jmeno": "Karel99";
+  "jmeno": "Karel99",
   "vek": 16,
   "je_plnolety": false,
-  "poznamka": null,
-  "adresa":{
-  "mesto": "Praha",
-  "Ulice": "Hlavni"
-},
-  "konicky":[
-  "hraní her",
-  "fotbal",
-  "hudba"
-]
+  "poznamka": "Rad hraji pocitacove hry",
+  "oblibene_cislo": 7,
+  "adresa": {
+    "mesto": "Praha",
+    "Ulice": "Hlavni"
+  },
+  "konicky": [
+    "hraní her",
+    "fotbal",
+    "hudba"
+  ]
 }
